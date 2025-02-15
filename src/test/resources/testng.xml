@@ -1,0 +1,10 @@
+<suite name="learningSuite">
+<!--    <listeners>-->
+<!--        <listener class-name="utils.TestListener"/>-->
+<!--    </listeners>-->
+    <test name="Google Test">
+        <classes>
+            <class name="tests.GoogleTest"/>
+        </classes>
+    </test>
+</suite>
