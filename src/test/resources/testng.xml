@@ -1,7 +1,10 @@
 <suite name="learningSuite">
-<!--    <listeners>-->
-<!--        <listener class-name="utils.TestListener"/>-->
-<!--    </listeners>-->
+    <!-- Add Allure listener -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+
     <test name="Google Test">
         <classes>
             <class name="tests.GoogleTest"/>
