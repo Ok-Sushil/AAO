@@ -1,7 +1,8 @@
-package driver;
+package com.amazon.factory;
 
 import org.openqa.selenium.WebDriver;
 
-public interface DriverManager {
+public interface WebDriverFactory {
+
     WebDriver createDriver();
 }
